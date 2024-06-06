@@ -9,15 +9,15 @@ In particular, we develop a novel ANN approach for CPUE standardization with two
 ### Model used:
 
 GLMs and GAMs used in this study:
-![image](https://github.com/leiyeming/tweedie-neural-net-for-CPUE-standardization/assets/47510325/22c90e0a-9a45-4856-8283-de63a454ef94)
+![image](https://github.com/leiyeming/tweedie-neural-net-for-CPUE-standardization/assets/47510325/25a8a639-6683-4a54-9056-7f546fad25f2)
 
 ANN models used in this study:
 
-![image](https://github.com/leiyeming/tweedie-neural-net-for-CPUE-standardization/assets/47510325/2194127c-12c3-4728-819e-c3469be783ac)
+![image](https://github.com/leiyeming/tweedie-neural-net-for-CPUE-standardization/assets/47510325/c8c485f1-151d-40c9-a017-7a8af1a795a7)
+![image](https://github.com/leiyeming/tweedie-neural-net-for-CPUE-standardization/assets/47510325/b3a37564-f058-403c-a1d7-164c12c81189)
 
-![image](https://github.com/leiyeming/tweedie-neural-net-for-CPUE-standardization/assets/47510325/4610cfc1-44c7-48bd-8727-a5b5356ea545)
 
-For more details, please refer to the code located in the "code" folder.
+For more details, please refer to the code in the "code" folder.
 
 Training algorithm:
 ![image](https://github.com/leiyeming/tweedie-neural-net-for-CPUE-standardization/assets/47510325/a11c2f7f-ff17-43d4-a12f-5879b3f67da4)
