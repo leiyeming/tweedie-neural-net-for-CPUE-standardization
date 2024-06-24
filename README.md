@@ -2,10 +2,14 @@
 ## A case study of the blue endeavour prawn in Australia's Northern Prawn Fishery
 
 
-We perform a study on standardizing the catch per unit effort (CPUE) for the blue endeavour prawns (Metapenaeus endeavouri) caught in the Northern Prawn Fishery (NPF), one of Australia's largest and most valuable prawn fisheries. The blue endeavour prawns constitute a significant proportion of the total NPF catches, yet there have been very limited studies on its population dynamics. This study investigated the effectiveness of Artificial Neural Networks (ANNs) for CPUE standardization. We use blue endeavour prawns as a case study and conduct a comprehensive comparison with generalized linear models and generalized additive models.
+Our research focuses on standardizing catch per unit effort (CPUE) for blue endeavour prawns (Metapenaeus endeavouri) in Australia's Northern Prawn Fishery (NPF), a major and valuable prawn fishery. Despite blue endeavour prawns forming a significant portion of NPF catches, their population dynamics remain understudied. We explore the potential of Artificial Neural Networks (ANNs) for CPUE standardization, using blue endeavour prawns as a case study and comparing ANNs with generalized linear and additive models.
+We introduce a novel ANN approach for CPUE standardization, incorporating two key innovations:
 
-In particular, we develop a novel ANN approach for CPUE standardization with two key ideas: using an architecture inspired by the catch equation to alleviate overfitting; and using the Tweedie distribution for handling the uncertainty and zero values in the catches. Specifically, we group variables into three distinct modules based on the catch equation, with each representing catchability, fishing effort, and fish density respectively. We then estimate the parameters of our ANNs by maximizing the likelihood using a coordinate descent approach, which alternates between optimizing the Tweedie distribution parameters (power and dispersion) and the standard neural net parameters. Our findings reveal that these customized ANNs improve model fitting and effectively mitigate overfitting. The comparison suggests a promising path for the application of neural networks in CPUE standardization.
+- An architecture inspired by the catch equation to reduce overfitting
+- The use of the Tweedie distribution to handle catch uncertainty and zero values
 
+Our model groups variables into three modules based on the catch equation, representing catchability, fishing effort, and fish density. We estimate ANN parameters by maximizing likelihood through a coordinate descent approach, alternating between optimizing Tweedie distribution parameters (power and dispersion) and standard neural net parameters.
+Results indicate that these customized ANNs enhance model fitting and effectively combat overfitting. This comparison suggests a promising avenue for applying neural networks in CPUE standardization.
 ### Model used:
 
 GLMs and GAMs used in this study:
